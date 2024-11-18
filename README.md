@@ -11,7 +11,7 @@
 
 A [Zerolog](https://github.com/treavorj/zerolog) Handler for [slog](https://pkg.go.dev/log/slog) Go library.
 
-## Note: This is a fork to be used with /treavorj/zerolog instead of /rs/zerolog
+## Note: This is a fork to be used with [/treavorj/zerolog](https://github.com/treavorj/zerolog) instead of [/rs/zerolog](https://github.com/rs/zerolog) for advanced features that /treavorj/zerolog provides
 
 <div align="center">
   <hr>
