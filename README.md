@@ -1,4 +1,3 @@
-
 # slog: Zerolog handler
 
 [![tag](https://img.shields.io/github/tag/samber/slog-zerolog.svg)](https://github.com/samber/slog-zerolog/releases)
@@ -10,7 +9,7 @@
 [![Contributors](https://img.shields.io/github/contributors/samber/slog-zerolog)](https://github.com/samber/slog-zerolog/graphs/contributors)
 [![License](https://img.shields.io/github/license/samber/slog-zerolog)](./LICENSE)
 
-A [Zerolog](https://github.com/rs/zerolog) Handler for [slog](https://pkg.go.dev/log/slog) Go library.
+A [Zerolog](https://github.com/treavorj/zerolog) Handler for [slog](https://pkg.go.dev/log/slog) Go library.
 
 <div align="center">
   <hr>
@@ -119,7 +118,7 @@ slogzerolog.LogLevels = map[slog.Level]zerolog.Level{...}
 
 ```go
 import (
-    "github.com/rs/zerolog"
+    "github.com/treavorj/zerolog"
     slogzerolog "github.com/samber/slog-zerolog/v2"
     "os"
     "log/slog"

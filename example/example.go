@@ -7,7 +7,7 @@ import (
 
 	"log/slog"
 
-	"github.com/rs/zerolog"
+	"github.com/treavorj/zerolog"
 	slogzerolog "github.com/samber/slog-zerolog/v2"
 )
 

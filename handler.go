@@ -5,8 +5,8 @@ import (
 
 	"log/slog"
 
-	"github.com/rs/zerolog"
-	"github.com/rs/zerolog/log"
+	"github.com/treavorj/zerolog"
+	"github.com/treavorj/zerolog/log"
 	slogcommon "github.com/samber/slog-common"
 )
 

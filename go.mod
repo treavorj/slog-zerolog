@@ -3,8 +3,8 @@ module github.com/samber/slog-zerolog/v2
 go 1.21
 
 require (
-	github.com/rs/zerolog v1.33.0
 	github.com/samber/slog-common v0.17.1
+	github.com/treavorj/zerolog v1.34.1
 	go.uber.org/goleak v1.3.0
 )
 

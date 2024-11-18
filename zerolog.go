@@ -3,7 +3,7 @@ package slogzerolog
 import (
 	"log/slog"
 
-	"github.com/rs/zerolog"
+	"github.com/treavorj/zerolog"
 )
 
 var LogLevels = map[slog.Level]zerolog.Level{
