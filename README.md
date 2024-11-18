@@ -11,6 +11,8 @@
 
 A [Zerolog](https://github.com/treavorj/zerolog) Handler for [slog](https://pkg.go.dev/log/slog) Go library.
 
+## Note: This is a fork to be used with /treavorj/zerolog instead of /rs/zerolog
+
 <div align="center">
   <hr>
   <sup><b>Sponsored by:</b></sup>
@@ -72,7 +74,7 @@ A [Zerolog](https://github.com/treavorj/zerolog) Handler for [slog](https://pkg.
 ## 🚀 Install
 
 ```sh
-go get github.com/samber/slog-zerolog/v2
+go get github.com/treavorj/slog-zerolog
 ```
 
 **Compatibility**: go >= 1.21
@@ -81,7 +83,7 @@ No breaking changes will be made to exported APIs before v3.0.0.
 
 ## 💡 Usage
 
-GoDoc: [https://pkg.go.dev/github.com/samber/slog-zerolog/v2](https://pkg.go.dev/github.com/samber/slog-zerolog/v2)
+GoDoc: [https://pkg.go.dev/github.com/treavorj/slog-zerolog](https://pkg.go.dev/github.com/treavorj/slog-zerolog)
 
 ### Handler options
 
@@ -119,7 +121,7 @@ slogzerolog.LogLevels = map[slog.Level]zerolog.Level{...}
 ```go
 import (
     "github.com/treavorj/zerolog"
-    slogzerolog "github.com/samber/slog-zerolog/v2"
+    slogzerolog "github.com/treavorj/slog-zerolog"
     "os"
     "log/slog"
 )
